@@ -1,0 +1,147 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 90% georgia, sans-serif;
+	line-height: 1.5;
+	color: black; 
+	background: white; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	padding: 0;
+        width: 100%;
+	}
+
+#box1 {
+     background-color: #AAAAAA;
+     padding: 15px;
+     padding-top: 40px;
+     margin: 5px 8px 10px 8px;
+     border: 3px solid black;
+     box-sizing: border-box;
+     text-align: left;
+     }
+#box2 {
+     background-color: #AAAAAA;
+     padding: 15px;
+     padding-top: 40px;
+     margin: 5px 8px 10px 8px;
+     border: 3px solid black;
+     box-sizing: border-box;
+     text-align: left;
+     }
+#box3 {
+     background-color: #AAAAAA;
+     padding: 15px;
+     padding-top: 40px;
+     margin: 5px 8px 10px 8px;
+     border: 3px solid black;
+     box-sizing: border-box;
+     text-align: left;
+     }
+
+#content1 {
+     background-color: yellow;
+     text-align: center;
+     border: 2px solid black;
+	margin-top: -41px; 
+	margin-right: -15px; 
+	margin-bottom: 8px; 
+     float: right;
+        font-weight: bold;
+     width: 33.33%;
+     }
+#content2 {
+     background-color: red;
+     text-align: center;
+     border: 2px solid black;
+	margin-top: -41px; 
+	margin-right: -15px; 
+	margin-bottom: 8px; 
+     float: right;
+        font-weight: bold;
+     width: 33.33%;
+     }
+#content3 {
+     background-color: blue;
+     text-align: center;
+     border: 2px solid black;
+	margin-top: -41px; 
+	margin-right: -15px; 
+	margin-bottom: 8px; 
+     float: right;
+        font-weight: bold;
+     color: white;
+     width: 33.33%;
+     }
+
+p { 
+	margin-top: 0; 
+	text-align: left;
+        }
+h1 { 
+	margin-top: 30px; 
+	margin-bottom: 30px; 
+	text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        }
+
+.row {
+  width: 96%;
+	margin-left: 2%; 
+	margin-right: 0%; 
+}
+
+@media (min-width: 992px) {
+  .pp1, .pp2, .pp3 {
+     float: left;
+     border: 0px solid green;  
+     width: 33.33%;
+  }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pp1, .pp2, .pp3, #content3 {
+     float: left;
+     border: 0px solid green;  
+     width: 50%;
+  }
+  .pp3 {
+     float: left;
+     border: 0px solid green;  
+     width: 100%;
+  }
+  #content3 {
+     background-color: blue;
+     text-align: center;
+     border: 2px solid black;
+	margin-top: -41px; 
+	margin-right: -15px; 
+	margin-bottom: 8px; 
+     float: right;
+        font-weight: bold;
+     color: white;
+     width: 16%;
+     }
+  }
+
+@media (max-width: 767px) {
+  .pp1, .pp2, .pp3 {
+     float: left;
+     border: 0px solid green;  
+     width: 100%;
+  }
+  }
