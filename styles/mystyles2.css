@@ -1,0 +1,103 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 90% Bitter, sans-serif;
+	line-height: 1.5;
+	color: black; 
+	background: white; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	padding: 0;
+        width: 100%;
+	}
+
+#box0 {
+     background-color: #FFEEEE;
+     padding: 2%;
+     padding-top: 2%;
+     margin: 0%;
+     border: 1px solid black;
+     box-sizing: border-box;
+     text-align: center;
+        font-size: 200%;
+     }
+#box1 {
+     background-color: #CCBBBB;
+     padding: 2%;
+     padding-top: 2%;
+     margin: 1% 2% 2% 1%;
+     border: 0px solid black;
+     box-sizing: border-box;
+     text-align: left;
+     }
+#box2 {
+     background-color: #CCBBBB;
+     padding: 3%;
+     padding-top: 3%;
+     margin: 1% 9% 1% 9%;
+     border: 0px solid black;
+     box-sizing: border-box;
+     text-align: left;
+     }
+
+p { 
+	margin-top: 0; 
+	text-align: left;
+        font-size: 200%;
+        }
+h1 { 
+	margin-top: 2%; 
+	margin-bottom: 3%; 
+	text-align: left;
+        font-size: 200%;
+        font-weight: bold;
+        color: #880000;
+        }
+h2 { 
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+        }
+h3 { 
+	margin-top: -1%; 
+	margin-bottom: 2%; 
+	text-align: center;
+        font-weight: bold;
+        }
+
+#header-nav {
+        background-color: #BBBBBB;
+	height: 8em; 
+  border: 2px solid #770000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #770000;
+	margin-top: 2%; 
+}
+
+
+.row {
+  width: 99%;
+	margin-left: 1%; 
+	margin-right: 0%; 
+	margin-bottom: 4%; 
+}
+
+button { 
+     margin: 5px 5px 5px 5px;
+        }
+
+
