@@ -29,6 +29,7 @@ WARNING!!! WARNING!!!
 
 names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
+  next=0;
   var letters = [];
 for (var thisname in names) {
 
@@ -40,4 +41,6 @@ for (var thisname in names) {
   } else {
     helloSpeaker(names[thisname]);
   }
+  strings[next]="<p>"+strings[next]+"</p>";
+  next++;
 }
